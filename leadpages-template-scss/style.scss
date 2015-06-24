@@ -1,0 +1,323 @@
+
+/*Style.scss*/
+
+@import '../leadpages-template-scss/foundation/foundation';
+//@import 'bootstrap';
+
+
+
+/* variables
+---------------------------------------------------------- */
+
+
+/*--- Colors ----*/
+$bodyBg:#fffffd;
+$headerColoring:#fffffe;
+$advImgWrapBg:#fffff2;
+$bgImgBg:#2265aa;
+$advWrap:#F8F8F8;
+
+
+$btnTransparentHoverBg:#f9f9f8;
+
+
+$bodyTextColor:#111111;
+
+
+
+$bodyFont:'merriweather', sans-serif;
+$heroFont:'open sans', sans-serif;
+
+
+/* sitewide
+---------------------------------------------------------- */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+.row{
+	max-width: 550px;
+}
+.rowLg{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+  .row{
+    max-width: calc(1000px);
+    margin: auto;
+  }
+}
+
+.clearfix:before,
+.site-container:before,
+.site-footer:before,
+.site-header:before,
+.section:before,
+.wrap:before {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after,
+.site-container:after,
+.site-footer:after,
+.site-header:after,
+.section:before,
+.wrap:after {
+	clear: both;
+	content: " ";
+	display: table;	
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background: $bodyBg;
+	color: $bodyTextColor;
+	font-size: 18px;
+	font-family: $bodyFont;
+	text-align: center;
+	margin:auto;
+}
+.cb{
+	clear:both;
+}
+
+
+/*---- Buttons --- */
+.btn-transparent {
+  font-family: 'Oswald',sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 12px 40px;
+  transition: all .4s;
+  transition: all .4s;
+  white-space: normal;
+  border: 2px solid;
+  border-radius: 2px;
+  background: transparent;
+  &:hover{
+  background-color: $btnTransparentHoverBg;
+  color: #2265ab;
+  text-decoration: none;
+  }
+}
+
+/* Header
+---------------------------------------------------------------------------------------------------- */
+
+.navWrap{
+
+}
+
+.headerSpace{
+ // margin-top: 1rem;
+ 
+}
+.header{
+	background: $headerColoring;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.top-bar {
+	//background: $headerColoring;
+}
+
+.top-bar-section ul li {
+  //background: $headerColoring;
+
+  }
+
+  .top-bar .title-area {
+  float: left;
+  margin-left: 100px;
+}
+
+.beforeMsb{
+  vertical-align: text-bottom;
+  line-height: 30px;
+  color:#fffff1;
+}
+.headerTextLg{
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(25px);
+  letter-spacing: -1.5px;
+  font-weight: 600;
+  color: #fffff2;
+    a{
+      color: #fffff3;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+}
+
+	.img-position{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	height: inherit;
+	}
+
+.headerAlign{
+  vertical-align: middle;
+}
+	.wrap {
+	padding: 5px 0;
+	
+	}
+
+	.logo {
+max-width: 95%;
+  max-height: 55px;
+	
+	}
+	.left{
+		float: left;
+	}
+
+	.right {
+	float: right;
+	}
+
+
+	.right .image {
+		vertical-align: text-top;
+		margin-right: 10px;
+	}
+
+
+
+img.bg {
+  /* Set rules to fill background */
+  //min-height: 100%;
+
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: inherit;
+	
+  /* Set up positioning */
+  position: absolute;
+  top:-1;
+  left: 0;
+
+  z-index: -1;
+}
+
+
+
+
+/* Content
+---------------------------------------------------------------------------------------------------- */
+
+
+/*---- Hero --*/
+#hero{
+  
+}
+
+.darken{
+ position: relative;
+ top: 0;
+ float: left;
+ width: 100%;
+ z-index: -1;
+ overflow: hidden;
+ height: 600px;
+  &:before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //background: $overlay;
+  opacity: .3;
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  }
+
+}
+
+
+.bgImg{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -2;
+  height: calc(900px);
+  background-color: $bgImgBg
+}
+
+
+.width100{
+width: 100%;
+}
+
+#hero {
+  h1{
+  color: #ffffff;
+  font-family: $heroFont;
+  font-size: calc(48px);
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 0;
+  padding: 10px 0;
+	}
+ 
+}
+
+.heroText{
+	margin-top: 50px;
+}
+
+
+
+/*-------Advantages-------*/
+.advantagesWrap{
+	background-color: $advWrap;
+}
+.advantagesGrid{
+	margin-top: 50px;
+}
+.advImgWrap{
+  background-color: $advImgWrapBg;
+  border-radius: 50%;
+  width: 233px;
+  height: 233px;
+  line-height: 233px;
+  margin: auto auto 50px auto;
+}
+
+.advImg{
+	display: inline-block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+
+/*Style.scss*/
+
+@import 'mediumscreen';
+@import 'largescreen';
+@import 'XLargecreen';
