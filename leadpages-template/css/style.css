@@ -5150,7 +5150,7 @@ meta.foundation-mq-topbar {
         width: 75%; }
   .top-bar .toggle-topbar {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
       color: #545451;
@@ -5179,7 +5179,7 @@ meta.foundation-mq-topbar {
           margin-top: -8px;
           top: 50%;
           right: 0.9375rem;
-          box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+          box-shadow: 0 0 0 1px #000000, 0 7px 0 1px #000000, 0 14px 0 1px #000000;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
@@ -7092,7 +7092,7 @@ img.bg {
   left: 0;
   top: 0;
   z-index: -2;
-  height: calc(900px);
+  height: 100%;
   background-color: #2265aa; }
 
 .width100 {
@@ -7101,8 +7101,7 @@ img.bg {
 #hero h1 {
   color: #ffffff;
   font-family: "open sans", sans-serif;
-  font-size: calc(48px);
-  font-weight: 700;
+  font-size: calc(20px	);
   line-height: 1.7;
   margin: 0;
   padding: 10px 0; }
@@ -7123,16 +7122,16 @@ img.bg {
 .advImgWrap {
   background-color: #fffff2;
   border-radius: 50%;
-  width: 233px;
-  height: 233px;
-  line-height: 233px;
+  width: 116px;
+  height: 116px;
+  line-height: 116px;
   margin: auto auto 50px auto; }
 
 .advImg {
   display: inline-block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  max-height: 100%;
+  max-height: 70%;
   vertical-align: middle; }
 
 .listStyle1 {
@@ -7144,7 +7143,6 @@ img.bg {
 
 .listStyle2 li {
   list-style: disc;
-  list-style-position: inside;
   text-align: left; }
 
 /*-------About-------*/
@@ -7217,7 +7215,7 @@ img.bg {
   top: 0;
   left: 0;
   z-index: -2;
-  min-height: calc(600px);
+  height: 100%;
   background-color: #2265aa; }
 
 .quoteText h3 {
@@ -7233,11 +7231,14 @@ img.bg {
 
 .quoteName {
   font-size: 22px;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 0px;
+  text-align: center; }
 
 .quoteBiz {
   font-size: 22px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center; }
 
 /*-------------Services------------*/
 .servicesWrap {
@@ -7353,7 +7354,7 @@ img.bg {
   top: 0;
   left: 0;
   z-index: -2;
-  min-height: calc(600px);
+  height: 100%;
   background-color: #2265aa; }
 
 .leadMagnetInner {
@@ -7361,7 +7362,7 @@ img.bg {
 
 .leadMagnetTitle {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 0; }
 
@@ -7388,10 +7389,12 @@ img.bg {
   padding-bottom: 50px; }
 
 .contactTitle {
-  font-size: 32px; }
+  font-size: 23px;
+  font-weight: 700; }
 
 .conactBtnWrap {
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
 
 .mapImg {
   width: 400px;
@@ -7408,6 +7411,24 @@ img.bg {
 
 /*Style.scss*/
 @media only screen and (min-width: 40.063em) {
+  #hero h1 {
+    font-size: calc(48px); }
+
+  .advImgWrap {
+    background-color: #fffff2;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    line-height: 233px;
+    margin: auto auto 50px auto; }
+
+  .advImg {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    vertical-align: middle; }
+
   .line:before, .line:after {
     background-color: #ddd;
     content: '\a0';
@@ -7433,6 +7454,20 @@ img.bg {
     width: 20%;
     padding-bottom: 20%; }
 
+  .listStyle2 li {
+    list-style: disc;
+    list-style-position: inside;
+    text-align: left; }
+
+  .quoteName {
+    text-align: left; }
+
+  .quoteBiz {
+    text-align: left; }
+
+  .leadMagnetTitle {
+    font-size: 60px; }
+
   .teamGrid {
     display: block;
     padding: 0;
@@ -7454,7 +7489,10 @@ img.bg {
       .teamGrid > li:nth-of-type(1n) {
         clear: none; }
       .teamGrid > li:nth-of-type(2n+1) {
-        clear: both; } }
+        clear: both; }
+
+  .conactBtnWrap {
+    text-align: left; } }
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 64.063em) {
   .teamGrid {

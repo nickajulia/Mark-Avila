@@ -11,7 +11,12 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/html5shiv.js" type="text/javascript"></script>
+  		<script src="js/foundation.js"></script>
+  		<script src="js/foundation.topbar.js"></script>
 		<script src="js/smoothscroll.js"></script>
+		<script>
+    $(document).foundation();
+  	</script>
 		
 		
 	</head>
@@ -21,9 +26,39 @@
 				<div id="header" class="row rowLg header">
 					<div id="headerInner" class="row">
 						<div class="columns medium-4">
-							<img id="logo" class="logo" src="img/logo.jpg"></li>
+							<a href="">
+								<img id="logo" class="logo" src="img/logo.jpg"></li>
+							</a>
 						</div>
 						<div id="navWrap"class="columns medium-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
 							<nav class="top-bar" data-topbar role="navigation">
 							  <ul class="title-area">
 							    <li class="name">
@@ -246,12 +281,12 @@
 											“3 Media Web was instrumental in turning our sleepy service-provider website into a dynamic and visually stimulating transactional website.”
 										</h3>
 										<div class="columns small-12 small-centered medium-6 medium-centered">
-											<div id="quoteImgWrap" class="quoteImgWrap columns small-6">
+											<div id="quoteImgWrap" class="quoteImgWrap columns small-12 medium-6">
 												<div>
 													<img src="img/susan.png" alt="">
 												</div>
 											</div>
-											<div id="quoteAttrWrap" class="quoteAttrWrap columns small-6">
+											<div id="quoteAttrWrap" class="quoteAttrWrap columns small-12 medium-6">
 												<div>
 													<p class="quoteName">Susan Pepple</p>
 													<p class="quoteBiz">Libman Education</p>
@@ -335,7 +370,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block1.jpg" alt="" id="caseBlockImg1">
 											<div class="galleryHover" id="galleryHover1">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -343,7 +378,7 @@
 										<div class="galleryBlock">
 										<img class="caseBlockImg" src="img/block2.jpg" alt="" id="caseBlockImg2">
 										<div class="galleryHover" id="galleryHover2">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>
 									</div>
@@ -351,7 +386,7 @@
 										<div class="galleryBlock" >
 											<img class="caseBlockImg" src="img/block3.jpg" alt="" id="caseBlockImg3">
 											<div class="galleryHover" id="galleryHover3">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -359,7 +394,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block4.jpg" alt="" id="caseBlockImg4">
 											<div class="galleryHover" id="galleryHover4">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -367,7 +402,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block5.jpg" alt="" id="caseBlockImg5">
 											<div class="galleryHover" id="galleryHover5">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -375,7 +410,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block6.jpg" alt="" id="caseBlockImg6">
 											<div class="galleryHover" id="galleryHover6">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -383,7 +418,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block7.jpg" alt="" id="caseBlockImg7">
 											<div class="galleryHover" id="galleryHover7">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -391,7 +426,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block8.jpg" alt="" id="caseBlockImg8">
 											<div class="galleryHover" id="galleryHover8">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -399,7 +434,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block9.jpg" alt="" id="caseBlockImg9">
 											<div class="galleryHover" id="galleryHover9">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -407,7 +442,7 @@
 										<div class="galleryBlock">
 											<img class="caseBlockImg" src="img/block10.jpg" alt="" id="caseBlockImg10">
 											<div class="galleryHover" id="galleryHover10">
-												<div>Text</div>
+												<div>View Project</div>
 											</div>
 										</div>	
 									</div>
@@ -485,7 +520,7 @@
 
 					<div id="leadmagnetWrap" class="row rowLg">
 						<div id="leadmagnetBgPosition" class="leadmagnetBgPosition">
-						<img class="leadmagnetBgImg" src="img/bluebg.png" alt="">
+						<img class="leadmagnetBgImg" src="img/bluebg2.png" alt="">
 						
 							<div id="leadmagnet" class="row">
 
@@ -518,11 +553,11 @@
 					<div id="contactWrap" class="row rowLg">
 						<div id="contact" class="row contact">
 							<div id="contactInner" class="contactInner">
-								<div id="map" class="columns medium-8">
+								<div id="map" class="columns medium-8 show-for-medium-up">
 									<img class="mapImg" src="img/map.jpg" alt="">
 								</div>
 								<div id="contactForm" class="columns medium-4">
-									<p id="contactTitle" class="conactTitle">CONTACT US</p>
+									<p id="contactTitle" class="contactTitle">CONTACT US</p>
 									<div id="conactText" class="contactText">
 										<p >Do you have an interesting design challenge for us? Would you like to tjoin our tema? Email us at awesome@3mediaweb.com or call 860-249-7000</p>
 										<p>Mailing Address:<br>
@@ -530,7 +565,7 @@
 										Hartford, Connecticut, 06103</p>
 									</div>
 									<div class="cb"></div>
-									<div id="contactBtnWrap" class="conactBtnWrap"><a href="" id="conactBtn" class=" button contactBtn btnBlue2">Click to Email Us</a></div>
+									<div id="contactBtnWrap" class="conactBtnWrap"><a href="" id="conactBtn" class=" button contactBtn btnBlue2">Click to Contact Us</a></div>
 								</div>
 							</div><!--Conact Inner-->	
 						</div><!-- Conact-->

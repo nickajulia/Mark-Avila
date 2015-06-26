@@ -3,6 +3,31 @@
 // Medium screens
 @media only screen and (min-width: 40.063em) { 
 
+
+	#hero {
+  h1{
+  	font-size: calc(48px);
+  	}
+  }
+
+
+  .advImgWrap{
+  background-color: $advImgWrapBg;
+  border-radius: 50%;
+  width: 233px;
+  height: 233px;
+  line-height: 233px;
+  margin: auto auto 50px auto;
+}
+
+.advImg{
+	display: inline-block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
 .line{
 	&:before, &:after{
 	background-color: #ddd;
@@ -37,6 +62,27 @@
 	padding-bottom: 20%;
 }
 
+.listStyle2{
+	li{
+		list-style: disc;
+		list-style-position: inside;
+		text-align: left;
+	}
+}
+
+.quoteName{
+	
+	text-align: left;
+}
+.quoteBiz{
+	
+	text-align: left;
+}
+
+.leadMagnetTitle{
+	font-size: 60px;
+}
+
 
 .teamGrid {
   @include block-grid(
@@ -51,6 +97,10 @@
     // This controls whether or not base styles come through, set to false to leave out.
     $base-style: true
   );
+}
+
+.conactBtnWrap{
+	text-align: left;
 }
 
 
