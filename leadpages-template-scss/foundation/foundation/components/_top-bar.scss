@@ -310,10 +310,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
       .divider,
       [role="separator"] {
-        border-top: $topbar-divider-border-top;
+        border-top: $topbar-link-font-size;
         clear: both;
         height: 1px;
         width: 100%;
+        position: relative;
+        top: 10px;
       }
 
       ul li {
@@ -637,8 +639,10 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           border-bottom: none;
           border-top: none;
           clear: none;
-          height: $topbar-height;
+          height: $topbar-link-font-size;
           width: 0;
+          position: relative;
+          top:10px;
         }
 
         .has-form {

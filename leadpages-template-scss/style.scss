@@ -225,6 +225,11 @@ text-align: left;
 	background: $headerColoring;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	position: fixed;
+	z-index: 500;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
 .top-bar {
@@ -314,6 +319,11 @@ img.bg {
 }
 
 
+/*
+ *Scrolling
+ */
+
+
 
 
 /* Content
@@ -321,18 +331,20 @@ img.bg {
 
 
 /*---- Hero --*/
-#hero{
-  
+.hero{
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0 110px 0;
 }
 
 .bgImgPlacement{
- //position: relative;
+ /*position: relative;
  top: 0;
  float: left;
  width: 100%;
  overflow: hidden;
  height: 600px;
-  
+  */
 
 }
 
@@ -609,6 +621,11 @@ max-width: 190px;
 
 /*----- Team --------*/
 
+.teamWrap{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 .teamGrid {
   @include block-grid(
     // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
@@ -716,8 +733,9 @@ max-width: 190px;
 
 
 /*---------Contact--------*/
-.contactInner{
-	margin-top: 50px;
+.contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .contactTitle{
 	font-size: 32px;
@@ -733,6 +751,14 @@ max-width: 190px;
 }
 
 /*---------Footer--------*/
+
+.footerWrap{
+	background-color: $footerBg;
+}
+.footerSocial{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 /*Style.scss*/
 

@@ -5208,10 +5208,12 @@ meta.foundation-mq-topbar {
     width: 100%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #2a2a28;
+    border-top: 1.375rem;
     clear: both;
     height: 1px;
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    top: 10px; }
   .top-bar-section ul li {
     background: #333333; }
     .top-bar-section ul li > a {
@@ -5551,8 +5553,10 @@ meta.foundation-mq-topbar {
       border-bottom: none;
       border-top: none;
       clear: none;
-      height: 2.8125rem;
-      width: 0; }
+      height: 1.375rem;
+      width: 0;
+      position: relative;
+      top: 10px; }
     .top-bar-section .has-form {
       background: #fffffe;
       height: 2.8125rem;
@@ -6998,7 +7002,12 @@ p {
 .header {
   background: #fffffe;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  left: 0; }
 
 .top-bar .title-area {
   float: left;
@@ -7057,15 +7066,25 @@ img.bg {
   left: 0;
   z-index: -1; }
 
+/*
+ *Scrolling
+ */
 /* Content
 ---------------------------------------------------------------------------------------------------- */
 /*---- Hero --*/
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 110px 0 110px 0; }
+
 .bgImgPlacement {
+  /*position: relative;
   top: 0;
   float: left;
   width: 100%;
   overflow: hidden;
-  height: 600px; }
+  height: 600px;
+   */ }
 
 .bgImg {
   width: 100%;
@@ -7274,6 +7293,10 @@ img.bg {
   margin: auto; }
 
 /*----- Team --------*/
+.teamWrap {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 .teamGrid {
   display: block;
   padding: 0;
@@ -7360,8 +7383,9 @@ img.bg {
   text-align: center; }
 
 /*---------Contact--------*/
-.contactInner {
-  margin-top: 50px; }
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .contactTitle {
   font-size: 32px; }
@@ -7375,6 +7399,13 @@ img.bg {
   margin: auto; }
 
 /*---------Footer--------*/
+.footerWrap {
+  background-color: #f4f4f4; }
+
+.footerSocial {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 /*Style.scss*/
 @media only screen and (min-width: 40.063em) {
   .line:before, .line:after {

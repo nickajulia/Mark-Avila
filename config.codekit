@@ -1913,6 +1913,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/leadpages-template\/img\/fb2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1021,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/fb2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/fb2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/leadpages-template\/img\/forbes.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1931,6 +1942,17 @@
 		"initialSize": 1587,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/gplus.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/gplus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/leadpages-template\/img\/gplus2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1279,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/gplus2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/gplus2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1975,6 +1997,17 @@
 		"initialSize": 1532,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/linkedin.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/leadpages-template\/img\/linkedin2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1092,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/linkedin2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/linkedin2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2056,6 +2089,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/leadpages-template\/img\/other2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1250,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/other2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/other2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/leadpages-template\/img\/pilot.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2063,6 +2107,28 @@
 		"initialSize": 8959,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/pilot.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/pilot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/leadpages-template\/img\/pintrest2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1297,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/pintrest2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/pintrest2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/leadpages-template\/img\/play2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1116,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/play2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/play2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2166,6 +2232,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/leadpages-template\/img\/twitter2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1164,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/twitter2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/twitter2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/leadpages-template\/img\/wall.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2214,6 +2291,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leadpages-template\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/html5shiv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/leadpages-template\/js\/jquery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leadpages-template\/js\/jquery.js",
+		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/leadpages-template\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leadpages-template\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/min\/functions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/leadpages-template\/js\/smoothscroll.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leadpages-template\/js\/smoothscroll.js",
+		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/smoothscroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
