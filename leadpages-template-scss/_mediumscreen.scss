@@ -3,8 +3,55 @@
 // Medium screens
 @media only screen and (min-width: 40.063em) { 
 
+.line{
+	&:before, &:after{
+	background-color: #ddd;
+	 content: '\a0';
+	 flex-grow: 1;
+	 height: 3px;
+	 position: relative;
+	 top: 0.7em;
+	}
+	&:before{
+		//padding-right: 10px;
+		margin-right: 10px;
+	}
+	&:after{
+		//padding-left: 10px;
+		margin-left: 10px;
+	}
+}
+
+.mainTitle{
+	font-size: 65px;
+}
+.subTitle{
+	font-size: 35px;
+}
+
+.caseBlock{
+	//width: 20%;
+	}
+.galleryBlock{
+	width:20%;
+	padding-bottom: 20%;
+}
 
 
+.teamGrid {
+  @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 2,
+
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: $block-grid-default-spacing,
+
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+}
 
 
 

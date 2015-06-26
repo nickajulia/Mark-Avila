@@ -16,14 +16,22 @@ $headerColoring:#fffffe;
 $advImgWrapBg:#fffff2;
 $bgImgBg:#2265aa;
 $advWrap:#F8F8F8;
+$aboutLine:#ddd;
+$servicesBg:#f8f8f7;
+$galleryBlock:#2265Af;
+$footerBg:#f4f4f4;
+
 
 
 $btnTransparentHoverBg:#f9f9f8;
+$btnTransparentHoverBg2:#f9f9f7;
+$btnBlueBg:#267bcf;
+$btnBlueBg2:#267bce;
 
 
-$bodyTextColor:#111111;
-
-
+$bodyTextColor:#545454;
+$titleColor:#535353;
+$subTitleColor:#a2a2a2;
 
 $bodyFont:'merriweather', sans-serif;
 $heroFont:'open sans', sans-serif;
@@ -43,16 +51,14 @@ $heroFont:'open sans', sans-serif;
      -moz-box-sizing: $box-model; // Firefox <= 19
           box-sizing: $box-model;
 }
-.row{
-	max-width: 550px;
-}
+
 .rowLg{
    width: 100%;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
   .row{
-    max-width: calc(1000px);
+    max-width: $row-width;
     margin: auto;
   }
 }
@@ -93,11 +99,72 @@ body {
 .cb{
 	clear:both;
 }
+p {
+text-align: left;
+}
+
+.mainTitle{
+	text-align: center;
+	color:$titleColor;
+	font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 15px;
+}
+.subTitle{
+	text-align: center;
+	color: $subTitleColor;
+	font-size: 25px;
+}
+
+.titlesWrap{
+	text-align: center;
+	margin-top: 70px;
+}
 
 
 /*---- Buttons --- */
-.btn-transparent {
+.btnTransparent {
   font-family: 'Oswald',sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 12px 40px;
+  transition: all .4s;
+  transition: all .4s;
+  white-space: normal;
+  border: 2px solid $btnTransparentHoverBg;
+  border-radius: 2px;
+  background: transparent;
+  transition: background .75s ease;
+  &:hover{
+  background-color: $btnTransparentHoverBg;
+  color: #2265ab;
+  text-decoration: none;
+  }
+}
+.btnTransparent2 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 12px 40px;
+  transition: all .4s;
+  transition: all .4s;
+  white-space: normal;
+  border: 2px solid $btnTransparentHoverBg2;
+  border-radius: 2px;
+  background: transparent;
+  transition: background .75s ease;
+  &:hover{
+  background-color: $btnTransparentHoverBg2;
+  color: #2265ab;
+  text-decoration: none;
+  }
+}
+
+.btnBlue{
+	 font-family: 'Oswald',sans-serif;
   font-size: 23px;
   font-weight: 300;
   line-height: 1;
@@ -107,13 +174,41 @@ body {
   white-space: normal;
   border: 2px solid;
   border-radius: 2px;
-  background: transparent;
+  background: $btnBlueBg;
+  color: #ffffff;
+  transition: background .75s ease;
+
   &:hover{
-  background-color: $btnTransparentHoverBg;
-  color: #2265ab;
+  background-color: transparent;
+  border:2px solid $btnBlueBg;
+  color:$btnBlueBg;
   text-decoration: none;
-  }
+	}
 }
+.btnBlue2{
+	 font-family: 'Oswald',sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 12px 40px;
+  transition: all .4s;
+  transition: all .4s;
+  white-space: normal;
+  border: 2px solid;
+  border-radius: 2px;
+  background: $btnBlueBg2;
+  color: #ffffff;
+  transition: background .75s ease;
+
+  &:hover{
+  background-color: transparent;
+  border:2px solid $btnBlueBg2;
+  color:$btnBlueBg;
+  text-decoration: none;
+	}
+}
+
+
 
 /* Header
 ---------------------------------------------------------------------------------------------------- */
@@ -230,30 +325,14 @@ img.bg {
   
 }
 
-.darken{
- position: relative;
+.bgImgPlacement{
+ //position: relative;
  top: 0;
  float: left;
  width: 100%;
- z-index: -1;
  overflow: hidden;
  height: 600px;
-  &:before{
-
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  //background: $overlay;
-  opacity: .3;
-  -moz-transition: background .3s linear;
-  -webkit-transition: background .3s linear;
-  -o-transition: background .3s linear;
-  transition: background .3s linear;
-  }
+  
 
 }
 
@@ -262,6 +341,7 @@ img.bg {
   width: 100%;
   position: absolute;
   left: 0;
+  top:0;
   z-index: -2;
   height: calc(900px);
   background-color: $bgImgBg
@@ -295,8 +375,11 @@ width: 100%;
 .advantagesWrap{
 	background-color: $advWrap;
 }
+.advantages{
+	padding-bottom: 70px;
+}
 .advantagesGrid{
-	margin-top: 50px;
+	margin-top: -50px;
 }
 .advImgWrap{
   background-color: $advImgWrapBg;
@@ -314,7 +397,342 @@ width: 100%;
   max-height: 100%;
   vertical-align: middle;
 }
+.listStyle1{
+	list-style-position: inside;
+	list-style: disc;
 
+	li{
+		list-style: disc;
+		list-style-position: inside;
+	}
+}
+
+.listStyle2{
+	li{
+		list-style: disc;
+		list-style-position: inside;
+		text-align: left;
+	}
+}
+
+
+/*-------About-------*/
+.aboutTitle{
+	font-size: 65px;
+  font-weight: 700;
+
+}
+
+.line{
+	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	text-align: center;
+
+
+	&:before, &:after{
+	background-color: $aboutLine;
+	 content: '\a0';
+	 flex-grow: 1;
+	 height: 3px;
+	 position: relative;
+	 top: 0.7em;
+	}
+	&:before{
+		padding-right: 20px;
+	}
+	&:after{
+		padding-left:20px;
+	}
+}
+
+.aboutBlockGrid{
+	margin-top: 50px;
+}
+.about2{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+/*-------Clients-----------*/
+.clientsInner{
+	margin-bottom: 50px;
+}
+.clientLogos{
+	text-align: center;
+	margin-top: 50px;
+}
+.clientLogo{
+display: inline-block;
+margin:0 15px 30px;
+max-width: 190px;
+}
+
+
+/*---Quote----*/
+
+.quoteBgPosition{
+ position: relative;
+ width: 100%;
+ overflow: hidden;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ top:0;
+
+ 	
+
+}
+.quoteBgImg{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+	
+  z-index: -2;
+  min-height: calc(600px);
+  background-color: $bgImgBg
+}
+
+.quoteText{
+	
+	h3{
+		color: #ffffff;
+	}
+	
+}
+
+.quoteImgWrap{
+	img{
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+	}
+}
+
+.quoteAttrWrap{
+	margin-top: 10px;
+}
+
+.quoteName{
+	font-size: 22px;
+	color:#ffffff;
+}
+.quoteBiz{
+	font-size: 22px;
+	color:#ffffff;
+}
+
+/*-------------Services------------*/
+.servicesWrap{
+	background-color: $servicesBg;
+}
+
+.servicesBlockGrid{
+	
+}
+.servicesTitle{
+	font-size: 23px;
+  font-weight: 700;
+}
+.servicesImgWrap{
+	line-height: 200px;
+  overflow: hidden;
+  height: 200px;
+  text-align: center;
+}
+
+
+/*----- CaseStudies --------*/
+
+
+
+
+.galleryBlock{
+	background: $galleryBlock;
+	overflow: hidden;
+	position: relative;
+	color:#fffffb;
+	margin:0;
+	width:50%;
+	float: left;
+	padding-bottom:50%;
+	display: block;
+
+
+
+	
+
+
+	.galleryHover{
+	position: absolute;
+	  top: 45%;
+	  left:0;
+	  padding: 0 20px;
+	  text-align: center;
+	  z-index: 7;
+	  width: 100%;
+	  opacity: 0;
+	  transition: opacity .25s ease-in-out;
+	  
+	}
+
+	&:hover{
+
+		.caseBlockImg{
+			opacity:.2;
+		}
+		.galleryHover{
+			opacity: 1;
+		}
+
+	}
+
+	
+}
+
+.caseBlockImg{
+	  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+  margin:auto;
+		
+	}
+
+
+
+
+/*----- Team --------*/
+
+.teamGrid {
+  @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 1,
+
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: $block-grid-default-spacing,
+
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+}
+	
+.teamBlockAttr{
+
+	margin-top: 10px;
+
+
+	p:first-child{
+		margin-bottom: 0;
+	}
+
+	p {
+		text-align: center;
+	}
+}
+.teamName{
+	font-size: 22px;
+}
+.teamPosition{
+	font-size: 17px;
+}
+
+.teamSocial{
+
+	text-align: center;
+	
+	a {
+		display: inline-block;
+  		margin: 0 4px;
+		
+			}
+}
+
+/*---leadmagnet----*/
+
+.leadmagnetBgPosition{
+ position: relative;
+ width: 100%;
+ overflow: hidden;
+ padding-top: 50px;
+ padding-bottom: 50px;
+
+ 	
+
+}
+.leadmagnetBgImg{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+	
+  z-index: -2;
+  min-height: calc(600px);
+  background-color: $bgImgBg
+}
+
+.leadMagnetInner{
+	margin-top: 50px;
+}
+
+.leadMagnetTitle{
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.leadMagnetSubtitle{
+	color: #ffffff;
+	text-align: center;
+}
+
+.leadMagnetBtnWrap{
+	margin-top: 50px;
+}
+
+.leadmagnetImgWrap{
+	
+}
+
+
+
+.leadmagnetName{
+	font-size: 22px;
+	color:#ffffff;
+	text-align: right;
+}
+.leadmagnetBiz{
+	font-size: 22px;
+	color:#ffffff;
+	text-align: center;
+}
+
+
+/*---------Contact--------*/
+.contactInner{
+	margin-top: 50px;
+}
+.contactTitle{
+	font-size: 32px;
+}
+.conactBtnWrap{
+	margin-top: 20px;
+}
+
+.mapImg{
+	width: 400px;
+	height: 350px;
+	margin:auto;
+}
+
+/*---------Footer--------*/
 
 /*Style.scss*/
 
