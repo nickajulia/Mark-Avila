@@ -2983,13 +2983,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/blueBg2.png": {
+	"\/leadpages-template\/img\/bluebg2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 410702,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/blueBg2.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/blueBg2.png",
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/bluebg2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/bluebg2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

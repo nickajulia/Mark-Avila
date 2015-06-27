@@ -21,6 +21,7 @@ $aboutLine:#ddd;
 $servicesBg:#f8f8f7;
 $galleryBlock:#2265Af;
 $footerBg:#f4f4f4;
+$iconBarBg:#333333;
 
 
 
@@ -226,12 +227,13 @@ text-align: left;
 
 	 li a{
 		color: $navColor;
-		font-size: 16px;
+		font-size: 30px;
 		font-family: $navFont;
 		font-weight: 300;
 		text-align: center;
 		padding-left: 5px;
 		padding-right: 5px;
+		line-height: normal;
 		
 		&:hover{
 			color:$navHoverColor;
@@ -260,6 +262,14 @@ text-align: left;
 }
 
 
+.navbar-toggle .icon-bar{
+	width: 40px;
+	height: 5px;
+	background: $iconBarBg;
+}
+
+
+
 
 .navWrap{
 
@@ -273,7 +283,7 @@ text-align: left;
 	background: $headerColoring;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	position: fixed;
+	
 	z-index: 500;
 	top: 0;
 	right: 0;
