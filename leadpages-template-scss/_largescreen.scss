@@ -3,7 +3,23 @@
 // large screens
 @media only screen and (min-width: 64.063em) {
 
+  .header{
+    padding-bottom: 20px;
+  }
 
+.navWrap{
+  width:66%;
+  float:left;
+}
+
+.logoWrap{
+  width: 33%;
+  float:left;
+}
+
+#theNav li a{
+  font-size: 22px;
+}
 
 .teamGrid {
   @include block-grid(

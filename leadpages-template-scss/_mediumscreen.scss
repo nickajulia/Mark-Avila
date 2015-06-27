@@ -2,13 +2,41 @@
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { 
+	
+#theNav li a{
+	font-size: 22px;
+}
 
+.navbar-nav {
+ float: none;
+  margin: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+#theNav li a:before{
+
+			content:"|";
+			  margin-right: 5px; 
+}
+
+
+#theNav li:first-child a:before{
+	content:"";
+}
+	
 
 	#hero {
   h1{
   	font-size: calc(48px);
   	}
   }
+
+
+
 
 
   .advImgWrap{
