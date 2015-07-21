@@ -34,6 +34,9 @@
     // This controls whether or not base styles come through, set to false to leave out.
     $base-style: true
   );
+  li{
+    width:24% !important;
+  }
 }
 
 

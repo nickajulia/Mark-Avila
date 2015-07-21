@@ -28,7 +28,9 @@ $iconBarBg:#333333;
 $btnTransparentHoverBg:#f9f9f8;
 $btnTransparentHoverBg2:#f9f9f7;
 $btnBlueBg:#267bcf;
+$btnBlueBgHover:#267bcc;
 $btnBlueBg2:#267bce;
+$btnBlueBg2Hover:#267bcb;
 
 
 $bodyTextColor:#545454;
@@ -178,7 +180,7 @@ text-align: left;
   transition: all .4s;
   transition: all .4s;
   white-space: normal;
-  border: 2px solid;
+  border: 2px solid $btnBlueBg;
   border-radius: 2px;
   background: $btnBlueBg;
   color: #ffffff;
@@ -186,8 +188,8 @@ text-align: left;
 
   &:hover{
   background-color: transparent;
-  border:2px solid $btnBlueBg;
-  color:$btnBlueBg;
+  border:2px solid $btnBlueBgHover;
+  color:$btnBlueBgHover;
   text-decoration: none;
 	}
 }
@@ -200,7 +202,7 @@ text-align: left;
   transition: all .4s;
   transition: all .4s;
   white-space: normal;
-  border: 2px solid;
+  border: 2px solid $btnBlueBg2;
   border-radius: 2px;
   background: $btnBlueBg2;
   color: #ffffff;
@@ -208,8 +210,8 @@ text-align: left;
 
   &:hover{
   background-color: transparent;
-  border:2px solid $btnBlueBg2;
-  color:$btnBlueBg;
+  border:2px solid $btnBlueBg2Hover;
+  color:$btnBlueBg2Hover;
   text-decoration: none;
 	}
 }
@@ -392,7 +394,7 @@ img.bg {
 .hero{
   position: relative;
   overflow: hidden;
-  padding: 110px 0 110px 0;
+  padding: 0px 0 110px 0;
 }
 
 .bgImgPlacement{
@@ -414,7 +416,7 @@ img.bg {
   top:0;
   z-index: -2;
   height: 100%;
-  background-color: $bgImgBg
+  background-color: $bgImgBg;
 }
 
 
@@ -458,6 +460,9 @@ width: 100%;
   height: 116px;
   line-height: 116px;
   margin: auto auto 50px auto;
+}
+.advLink{
+	width: 100%;
 }
 
 .advImg{
@@ -574,8 +579,8 @@ max-width: 190px;
 .quoteImgWrap{
 	img{
 		border-radius: 50%;
-		height: 120px;
-		width: 120px;
+		max-height: 120px;
+		max-width: 120px;
 	}
 }
 
@@ -601,7 +606,10 @@ max-width: 190px;
 	background-color: $servicesBg;
 }
 
-.servicesBlockGrid{
+#servicesBlockGrid{
+	li p{
+		text-align: center;
+	}
 	
 }
 .servicesTitle{
@@ -632,7 +640,13 @@ max-width: 190px;
 	padding-bottom:50%;
 	display: block;
 
+	a{
+		color:#ffffff;
+		&:hover{
+			text-decoration: none;
+		}
 
+	}
 
 	
 
@@ -701,6 +715,11 @@ max-width: 190px;
     // This controls whether or not base styles come through, set to false to leave out.
     $base-style: true
   );
+
+  display: flex !important;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:flex-start;
 }
 	
 .teamBlockAttr{

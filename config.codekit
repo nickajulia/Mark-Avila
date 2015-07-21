@@ -948,6 +948,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js to combine\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js to combine\/bootstrap.js",
+		"outputAbbreviatedPath": "\/js to combine\/min\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js to combine\/functions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js to combine\/functions.js",
+		"outputAbbreviatedPath": "\/leadpages-template\/js\/functions.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js to combine\/jquery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js to combine\/jquery.js",
+		"outputAbbreviatedPath": "\/js to combine\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js to combine\/smoothscroll.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js to combine\/smoothscroll.js",
+		"outputAbbreviatedPath": "\/js to combine\/min\/smoothscroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/leadpages-template-scss\/_bootstrap.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -2983,13 +3027,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/bluebg2.png": {
+	"\/leadpages-template\/img\/blueBg2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 410702,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bluebg2.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bluebg2.png",
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/blueBg2.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/blueBg2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3012,17 +3056,6 @@
 		"initialSize": 3685,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/chart.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/chart.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/cnn.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4564,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/cnn.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/cnn.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3067,17 +3100,6 @@
 		"initialSize": 1021,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/fb2.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/fb2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/forbes.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3755,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/forbes.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/forbes.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3170,17 +3192,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15741,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/leadpages-template\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3210,28 +3221,6 @@
 		"initialSize": 65639,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/marc.jpg",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/marc.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/markeasy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4233,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/markeasy.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/markeasy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/msnbc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3724,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/msnbc.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/msnbc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3335,22 +3324,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/shark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3692,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/shark.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/shark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/leadpages-template\/img\/susan.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 33108,
+		"initialSize": 24560,
 		"inputAbbreviatedPath": "\/leadpages-template\/img\/susan.png",
 		"outputAbbreviatedPath": "\/leadpages-template\/img\/susan.png",
 		"outputPathIsOutsideProject": 0,
@@ -3390,17 +3368,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/wall.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6197,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/wall.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/wall.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/leadpages-template\/img\/wplogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3421,20 +3388,9 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/leadpages-template\/js\/bootstrap.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/leadpages-template\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/bootstrap-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/leadpages-template\/js\/functions.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leadpages-template\/js\/functions.js",
 		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/functions-min.js",
@@ -3449,28 +3405,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leadpages-template\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/html5shiv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/leadpages-template\/js\/jquery.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/leadpages-template\/js\/jquery.js",
-		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/jquery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/leadpages-template\/js\/smoothscroll.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/leadpages-template\/js\/smoothscroll.js",
-		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/smoothscroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3492,6 +3426,26 @@
 	],
 "lastSavedByUser": "Nicholas Julia",
 "manualImportLinks": {
+	"\/js to combine\/functions.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js to combine\/jquery.js",
+			"position": 0,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js to combine\/bootstrap.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js to combine\/smoothscroll.js",
+			"position": 2,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

@@ -1,19 +1,120 @@
 {
-	"id": "Get the Guide",
-	"name": "Get the Guide", 
+	"id": "Media Web Template",
+	"name": "Media Web Template", 
 	"mobile": true, 
-	"notes": "version 1.101", 
+	"notes": "version 1.1049", 
 	"syntax": 4, 
-	"version": 1.101,
+	"version": 1.1049,
 	"style": {
 		"html": "",
 		"replacements": [
 
-        {
+
+       {
               "type": "color",
-              "name": "Header Background Overlay Color",
-              "find": "#00000A"
+              "name": "Mobile Nav Hamburger Bg",
+              "find": "#267bcd"
+          },
+          {
+              "type": "color",
+              "name": "Mobile Nav Haburger bar color",
+              "find": "#333333"
+          },
+           {
+              "type": "color",
+              "name": "header Bg- Color",
+              "find": "#fffffe"
+          },
+           {
+              "type": "color",
+              "name": "Nav Links Color",
+              "find": "#545451"
+          },
+           {
+              "type": "color",
+              "name": "Nav Links Hover",
+              "find": "#2265a1"
+          },
+
+
+          {
+              "type": "color",
+              "name": "Body Bg- Color",
+              "find": "#fffffd"
+          },
+
+
+            {
+              "type": "color",
+              "name": "Hero Button border & Hover Color",
+              "find": "#f9f9f8"
+          },
+
+        
+
+          {
+              "type": "color",
+              "name": "Bg Images Fallback- bg color",
+              "find": "#2265aa"
+          },
+
+          {
+              "type": "color",
+              "name": "Advantages Section bg Color",
+              "find": "#F8F8F8"
+          },
+
+           {
+              "type": "color",
+              "name": "Advantages Icons bg Color",
+              "find": "#fffff2"
+          },
+
+           {
+              "type": "color",
+              "name": "About Line color",
+              "find": "#ddd"
+          },
+
+           {
+              "type": "color",
+              "name": "About Button Color",
+              "find": "#267bcf"
+          },
+            {
+              "type": "color",
+              "name": "About Button Hover Color",
+              "find": "#267bcc"
+          },
+          {
+              "type": "color",
+              "name": "Serivces Section Bg",
+              "find": "#f8f8f7"
+          },
+          
+          {
+              "type": "color",
+              "name": "Case Study Hover Color",
+              "find": "#2265Af"
+          },
+           {
+              "type": "color",
+              "name": "LeadMagnet Button Hover & border Color",
+              "find": "#f9f9f7"
+          },
+            {
+              "type": "color",
+              "name": "Contact Button  Color",
+              "find": "#267bce"
+          },
+            {
+              "type": "color",
+              "name": "Contact Button Hover Color",
+              "find": "#267bcb"
           }
+
+
+         
 
 		                ]
 	},
@@ -51,54 +152,1450 @@
 	"elements": [
 		
         {
-      "id": "site-header",
+      "id": "header",
       "name": "Header Container",
       "type": "container"
         },
+         {
+      "id": "logoWrap",
+      "name": "Logo Container",
+      "type": "container"
+        },
+         {
+      "id": "navWrap",
+      "name": "Nav Container",
+      "type": "container"
+        },
+         {
+      "id": "hero",
+      "name": "Hero Container",
+      "type": "container"
+        },
+        {
+      "id": "advantagesWrap",
+      "name": "Advantages Container",
+      "type": "container"
+        },
+           {
+      "id": "aboutWrap",
+      "name": "About Container",
+      "type": "container"
+        },
+         {
+      "id": "aboutBlockGrid",
+      "name": "About Lists Container",
+      "type": "container"
+        },
+        {
+      "id": "clientsWrap",
+      "name": "Clients Container",
+      "type": "container"
+        },
+         {
+      "id": "quoteWrap",
+      "name": "Quote Container",
+      "type": "container"
+        },
+          {
+      "id": "servicesWrap",
+      "name": "Serivces Container",
+      "type": "container"
+        },
+         {
+      "id": "serticesList1",
+      "name": "Serivces Container 1",
+      "type": "container"
+        },
+         {
+      "id": "serticesList2",
+      "name": "Serivces Container 2",
+      "type": "container"
+        },
+         {
+      "id": "serticesList3",
+      "name": "Serivces Container 3",
+      "type": "container"
+        },
+         {
+      "id": "serticesList4",
+      "name": "Serivces Container 4",
+      "type": "container"
+        },
+         {
+      "id": "serticesList5",
+      "name": "Serivces Container 5",
+      "type": "container"
+        },
+         {
+      "id": "serticesList6",
+      "name": "Serivces Container 6",
+      "type": "container"
+        },
+        {
+      "id": "caseWrap",
+      "name": "Case Studies Container",
+      "type": "container"
+        },
+        {
+      "id": "teamWrap",
+      "name": "Team Container",
+      "type": "container"
+        },
        
-      
 
+
+
+
+         {
+      "id": "caseBlock1",
+      "name": "Case Study Block 1",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock2",
+      "name": "Case Study Block 2",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock3",
+      "name": "Case Study Block 3",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock4",
+      "name": "Case Study Block 4",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock5",
+      "name": "Case Study Block 5",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock6",
+      "name": "Case Study Block 6",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock7",
+      "name": "Case Study Block 7",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock8",
+      "name": "Case Study Block 8",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock9",
+      "name": "Case Study Block 9",
+      "type": "container"
+        },
+        {
+      "id": "caseBlock10",
+      "name": "Case Study Block 10",
+      "type": "container"
+        },
+       
+
+       {
+      "id": "teamBlock1",
+      "name": "Team Block 1",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock2",
+      "name": "Team Block 2",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock3",
+      "name": "Team Block 3",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock4",
+      "name": "Team Block 4",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock5",
+      "name": "Team Block 5",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock6",
+      "name": "Team Block 6",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock7",
+      "name": "Team Block 7",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock8",
+      "name": "Team Block 8",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock9",
+      "name": "Team Block 9",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock10",
+      "name": "Team Block 10",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock11",
+      "name": "Team Block 11",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock12",
+      "name": "Team Block 12",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock13",
+      "name": "Team Block 13",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock14",
+      "name": "Team Block 14",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock15",
+      "name": "Team Block 15",
+      "type": "container"
+        },
+        {
+      "id": "teamBlock16",
+      "name": "Team Block 16",
+      "type": "container"
+        },
+
+
+       {
+      "id": "teamSocial1",
+      "name": "Team Social container 1",
+      "type": "container"
+        },
+        {
+      "id": "teamSocial2",
+      "name": "Team Social container 2",
+      "type": "container"
+        },
+        {
+      "id": "teamSocial3",
+      "name": "Team Social container 3",
+      "type": "container"
+        },
+        {
+      "id": "teamSocial4",
+      "name": "Team Social container 4",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial5",
+      "name": "Team Social container 5",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial6",
+      "name": "Team Social container 6",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial7",
+      "name": "Team Social container 7",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial8",
+      "name": "Team Social container 8",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial9",
+      "name": "Team Social container 9",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial10",
+      "name": "Team Social container 10",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial11",
+      "name": "Team Social container 11",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial12",
+      "name": "Team Social container 12",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial13",
+      "name": "Team Social container 13",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial14",
+      "name": "Team Social container 14",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial15",
+      "name": "Team Social container 15",
+      "type": "container"
+        },
+         {
+      "id": "teamSocial16",
+      "name": "Team Social container 16",
+      "type": "container"
+        },
+
+        {
+      "id": "leadmagnetWrap",
+      "name": "leadmagnet container ",
+      "type": "container"
+        },
+          {
+      "id": "contactWrap",
+      "name": "Contact Container",
+      "type": "container"
+        },
+          {
+      "id": "footerWrap",
+      "name": "Footer Container",
+      "type": "container"
+        },
 
 
 
         {
-      "id": "heroTitle",
-      "name": "Hero Title",
+      "id": "heroHeadline",
+      "name": "Hero Headline",
       "type": "text"
         },
-    
-     
+          {
+      "id": "advListTitle1",
+      "name": "Advantages  Title 1",
+      "type": "text"
+        },
+           {
+      "id": "advListTitle2",
+      "name": "Advantages  Title 2",
+      "type": "text"
+        },
+          {
+      "id": "advListTitle3",
+      "name": "Advantages List  3",
+      "type": "text"
+        },
+          {
+      "id": "advList1",
+      "name": "Advantages List 1",
+      "type": "text"
+        },
+        {
+      "id": "advList2",
+      "name": "Advantages List 2",
+      "type": "text"
+        },
+        {
+      "id": "advList3",
+      "name": "Advantages List 3",
+      "type": "text"
+        },
+      {
+      "id": "aboutTitle",
+      "name": "About Title",
+      "type": "text"
+        },
+        {
+      "id": "aboutSubTitle",
+      "name": "About SubTitle",
+      "type": "text"
+        },
+         {
+      "id": "aboutText1",
+      "name": "About Text 1",
+      "type": "text"
+        },
 
 
+
+         {
+      "id": "aboutGridTitle1",
+      "name": "About Title 1",
+      "type": "text"
+        },
+        {
+      "id": "aboutGridTitle2",
+      "name": "About Title 2",
+      "type": "text"
+        },
+        {
+      "id": "aboutGridTitle3",
+      "name": "About Title 3",
+      "type": "text"
+        },
+
+
+          {
+      "id": "aboutGrid1",
+      "name": "About List 1",
+      "type": "text"
+        },
+         {
+      "id": "aboutGrid2",
+      "name": "About List 2",
+      "type": "text"
+        },
+         {
+      "id": "aboutGrid3",
+      "name": "About List 3",
+      "type": "text"
+        },
+          {
+      "id": "clientsTitle",
+      "name": "Clients Title",
+      "type": "text"
+        },
+         {
+      "id": "quoteText",
+      "name": "Quote Text",
+      "type": "text"
+        },
+        {
+      "id": "quoteName",
+      "name": "Quote Name Text",
+      "type": "text"
+        },
+        {
+      "id": "quoteBiz",
+      "name": "Quote Business Text",
+      "type": "text"
+        },
+         {
+      "id": "servicesMainTitle",
+      "name": "Services Main Title Text",
+      "type": "text"
+        },
+        {
+      "id": "servicesSubTitle",
+      "name": "Services Main SubTitle Text",
+      "type": "text"
+        },
+     {
+      "id": "servicesTitle1",
+      "name": "Services Title 1",
+      "type": "text"
+        },
+        {
+      "id": "servicesTitle2",
+      "name": "Services Title 2",
+      "type": "text"
+        },
+        {
+      "id": "servicesTitle3",
+      "name": "Services Title 3",
+      "type": "text"
+        },
+        {
+      "id": "servicesTitle4",
+      "name": "Services Title 4",
+      "type": "text"
+        },
+        {
+      "id": "servicesTitle5",
+      "name": "Services Title 5",
+      "type": "text"
+        },
+        {
+      "id": "servicesTitle6",
+      "name": "Services Title 6",
+      "type": "text"
+        },
+         {
+      "id": "servicesText1",
+      "name": "Services text 1",
+      "type": "text"
+        },
+         {
+      "id": "servicesText2",
+      "name": "Services text 2",
+      "type": "text"
+        },
+         {
+      "id": "servicesText3",
+      "name": "Services text 3",
+      "type": "text"
+        },
+         {
+      "id": "servicesText4",
+      "name": "Services text 4",
+      "type": "text"
+        },
+         {
+      "id": "servicesText5",
+      "name": "Services text 5",
+      "type": "text"
+        },
+         {
+      "id": "servicesText6",
+      "name": "Services text 6",
+      "type": "text"
+        },
+
+
+         {
+      "id": "caseTitle",
+      "name": "Case Study Title",
+      "type": "text"
+        },
+        {
+      "id": "caseSubtitle",
+      "name": "Case Study Subtitle",
+      "type": "text"
+        },
 
         
+     {
+      "id": "teamMainTitle",
+      "name": "Team Main Title",
+      "type": "text"
+        },
         {
-      "id": "footerLink5",
-      "name": "Footer Link5",
+      "id": "teamSubTitle",
+      "name": "Team Sub Title",
+      "type": "text"
+        },
+        {
+      "id": "teamName1",
+      "name": "Team Name 1",
+      "type": "text"
+        },
+        {
+      "id": "teamName2",
+      "name": "Team Name 2",
+      "type": "text"
+        },
+        {
+      "id": "teamName3",
+      "name": "Team Name 3",
+      "type": "text"
+        },
+        {
+      "id": "teamName4",
+      "name": "Team Name 4",
+      "type": "text"
+        },
+         {
+      "id": "teamName5",
+      "name": "Team Name 5",
+      "type": "text"
+        },
+         {
+      "id": "teamName6",
+      "name": "Team Name 6",
+      "type": "text"
+        },
+         {
+      "id": "teamName7",
+      "name": "Team Name 7",
+      "type": "text"
+        },
+         {
+      "id": "teamName8",
+      "name": "Team Name 8",
+      "type": "text"
+        },
+         {
+      "id": "teamName9",
+      "name": "Team Name 9",
+      "type": "text"
+        },
+         {
+      "id": "teamName10",
+      "name": "Team Name 10",
+      "type": "text"
+        },
+         {
+      "id": "teamName11",
+      "name": "Team Name 11",
+      "type": "text"
+        },
+         {
+      "id": "teamName12",
+      "name": "Team Name 13",
+      "type": "text"
+        },
+         {
+      "id": "teamName13",
+      "name": "Team Name 13",
+      "type": "text"
+        },
+         {
+      "id": "teamName14",
+      "name": "Team Name 14",
+      "type": "text"
+        },
+         {
+      "id": "teamName15",
+      "name": "Team Name 15",
+      "type": "text"
+        },
+         {
+      "id": "teamName16",
+      "name": "Team Name 16",
+      "type": "text"
+        },
+
+
+        {
+      "id": "teamPosition1",
+      "name": "Team Position 1",
+      "type": "text"
+        },
+          {
+        "id": "teamPosition2",
+        "name": "Team Position 2",
+        "type": "text"
+          },
+            {
+      "id": "teamPosition3",
+      "name": "Team Position 3",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition4",
+      "name": "Team Position 4",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition5",
+      "name": "Team Position 5",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition6",
+      "name": "Team Position 6",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition7",
+      "name": "Team Position 7",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition8",
+      "name": "Team Position 8",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition9",
+      "name": "Team Position 9",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition10",
+      "name": "Team Position 10",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition11",
+      "name": "Team Position 11",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition12",
+      "name": "Team Position 12",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition13",
+      "name": "Team Position 13",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition14",
+      "name": "Team Position 14",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition15",
+      "name": "Team Position 15",
+      "type": "text"
+        },
+          {
+      "id": "teamPosition16",
+      "name": "Team Position 16",
+      "type": "text"
+        },
+
+        {
+      "id": "leadmagnetText",
+      "name": "Lead Magnet Headline`",
+      "type": "text"
+        },
+         {
+      "id": "leadMagnetSubtitle",
+      "name": "Lead Magnet Sub Headline",
+      "type": "text"
+        },
+        {
+      "id": "contactTitle",
+      "name": "Contact Headline",
+      "type": "text"
+        },
+          {
+      "id": "contactText",
+      "name": "Contact Text",
+      "type": "text"
+        },
+
+      {
+      "id": "navLink1",
+      "name": "Nav Link1",
       "type": "link"
         },
+         {
+      "id": "navLink2",
+      "name": "Nav Link2",
+      "type": "link"
+        },
+         {
+      "id": "navLink3",
+      "name": "Nav Link3",
+      "type": "link"
+        },
+         {
+      "id": "navLink4",
+      "name": "Nav Link4",
+      "type": "link"
+        },
+         {
+      "id": "navLink5",
+      "name": "Nav Link5",
+      "type": "link"
+        },
+         {
+      "id": "navLink6",
+      "name": "Nav Link6",
+      "type": "link"
+        },
+           {
+        "id": "button1",
+        "name": "Hero Button",
+        "type": "link"
+          },
+             {
+          "id": "about2Btn",
+          "name": "About Button",
+          "type": "link"
+            },
+             {
+          "id": "leadMagnetBtn",
+          "name": "LeadMagnet Button",
+          "type": "link"
+            },
+              {
+          "id": "contactBtn",
+          "name": "Contact Button",
+          "type": "link"
+            },
+
+
+               {
+            "id": "block1Text",
+            "name": "Case Study Hover link 1",
+            "type": "link"
+              },
+
+               {
+            "id": "block2Text",
+            "name": "Case Study Hover link 2",
+            "type": "link"
+              },
+
+               {
+            "id": "block3Text",
+            "name": "Case Study Hover link 3",
+            "type": "link"
+              },
+
+               {
+            "id": "block4Text",
+            "name": "Case Study Hover link 4",
+            "type": "link"
+              },
+
+               {
+            "id": "block5Text",
+            "name": "Case Study Hover link 5",
+            "type": "link"
+              },
+
+               {
+            "id": "block6Text",
+            "name": "Case Study Hover link 6",
+            "type": "link"
+              },
+
+               {
+            "id": "block7Text",
+            "name": "Case Study Hover link 7",
+            "type": "link"
+              },
+
+               {
+            "id": "block8Text",
+            "name": "Case Study Hover link 8",
+            "type": "link"
+              },
+
+               {
+            "id": "block9Text",
+            "name": "Case Study Hover link 9",
+            "type": "link"
+              },
+
+               {
+            "id": "block10Text",
+            "name": "Case Study Hover link 10",
+            "type": "link"
+              },
+
+
+
+
+
+
+
+        {
+      "id": "logo",
+      "name": "Logo Image Link",
+      "type": "image-link"
+        },
+         {
+      "id": "advImg1",
+      "name": "Advantages Image 1 Link",
+      "type": "image-link"
+        },
+         {
+      "id": "advImg2",
+      "name": "Advantages Image 2 Link",
+      "type": "image-link"
+        },
+         {
+      "id": "advImg3",
+      "name": "Advantages Image 3 Link",
+      "type": "image-link"
+        },
+         {
+      "id": "logo1",
+      "name": "Client Logo 1",
+      "type": "image-link"
+        },
+         {
+      "id": "logo2",
+      "name": "Client Logo 2",
+      "type": "image-link"
+        },
+         {
+      "id": "logo3",
+      "name": "Client Logo 3",
+      "type": "image-link"
+        },
+         {
+      "id": "logo4",
+      "name": "Client Logo 4",
+      "type": "image-link"
+        },
+         {
+      "id": "logo5",
+      "name": "Client Logo 5",
+      "type": "image-link"
+        },
+
+         {
+      "id": "footerSocialImg1",
+      "name": "footer Social Img 1",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg2",
+      "name": "footer Social Img 2",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg3",
+      "name": "footer Social Img 3",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg4",
+      "name": "footer Social Img 4",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg5",
+      "name": "footer Social Img 5",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg6",
+      "name": "footer Social Img 6",
+      "type": "image-link"
+        },
+         {
+      "id": "footerSocialImg7",
+      "name": "footer Social Img 7",
+      "type": "image-link"
+        },
+
+
+
+        {
+      "id": "caseBlockImgLink1",
+      "name": "Case Block Img Link 1",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink2",
+      "name": "Case Block Img Link 2",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink3",
+      "name": "Case Block Img Link 3",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink4",
+      "name": "Case Block Img Link 4",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink5",
+      "name": "Case Block Img Link 5",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink6",
+      "name": "Case Block Img Link 6",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink7",
+      "name": "Case Block Img Link 7",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink8",
+      "name": "Case Block Img Link 8",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink9",
+      "name": "Case Block Img Link 9",
+      "type": "image-link"
+        },
+        {
+      "id": "caseBlockImgLink10",
+      "name": "Case Block Img Link 10",
+      "type": "image-link"
+        },
+         {
+        "id": "socialImgA1",
+        "name": "Team1 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgA2",
+        "name": "Team1 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgA3",
+        "name": "Team1 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgA4",
+        "name": "Team1 Social 4",
+        "type": "image-link"
+          },  
+          {
+        "id": "socialImgB1",
+        "name": "Team2 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgB2",
+        "name": "Team2 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgB3",
+        "name": "Team2 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgB4",
+        "name": "Team2 Social 4",
+        "type": "image-link"
+          },  
+          {
+        "id": "socialImgC1",
+        "name": "Team3 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgC2",
+        "name": "Team3 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgC3",
+        "name": "Team3 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgC4",
+        "name": "Team3 Social 4",
+        "type": "image-link"
+          },  
+          {
+        "id": "socialImgD1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgD2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgD3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgD4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+
+                  {
+        "id": "socialImgE1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgE2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgE3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgE4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgF1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgF2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgF3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgF4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgG1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgG2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgG3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgG4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgH1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgH2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgH3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgH4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgI1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgI2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgI3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgI4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgJ1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgJ2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgJ3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgJ4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgK1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgK2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgK3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgK4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+          {
+        "id": "socialImgL1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgL2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgL3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgL4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgM1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgM2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgM3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgM4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgN1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgN2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgN3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgN4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgO1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgO2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgO3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgO4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },  
+          {
+        "id": "socialImgP1",
+        "name": "Team4 Social 1",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgP2",
+        "name": "Team4 Social 2",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgP3",
+        "name": "Team4 Social 3",
+        "type": "image-link"
+          },  
+           {
+        "id": "socialImgP4",
+        "name": "Team4 Social 4",
+        "type": "image-link"
+          },    
+
+
+
+            {
+        "id": "leadMagnetImgLink",
+        "name": "lead Magnet Img",
+        "type": "image-link"
+          },  
+
+
+            {
+        "id": "LeadMagnetBgImg",
+        "name": "Lead Magnet Bg Img",
+        "type": "image"
+          },  
+
+
+
+
 
 
 
 
 
          {
-      "id": "header-bg",
-      "name": "Header Background",
+      "id": "heroBg",
+      "name": "Hero Bg Image",
       "type": "image"
         },
-           
+         {
+      "id": "quoteBgImg",
+      "name": "Quote Bg Image",
+      "type": "image"
+        },
+          {
+      "id": "quoteImg",
+      "name": "Quote Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg1",
+      "name": "Services 1 Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg2",
+      "name": "Services 2 Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg3",
+      "name": "Services 3 Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg4",
+      "name": "Services 4 Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg5",
+      "name": "Services 5 Image",
+      "type": "image"
+        },
+        {
+      "id": "serviceImg6",
+      "name": "Services 6 Image",
+      "type": "image"
+        },
+          {
+        "id": "teamImg1",
+        "name": "team Img 1",
+        "type": "image"
+          }, 
+           {
+        "id": "teamImg2",
+        "name": "team Img 2",
+        "type": "image"
+          },  
+           {
+        "id": "teamImg3",
+        "name": "team Img 3",
+        "type": "image"
+          },  
+           {
+        "id": "teamImg4",
+        "name": "team Img 4",
+        "type": "image"
+          },  
+            {
+        "id": "teamImg5",
+        "name": "team Img 5",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg6",
+        "name": "team Img 6",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg7",
+        "name": "team Img 7",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg8",
+        "name": "team Img 8",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg9",
+        "name": "team Img 9",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg10",
+        "name": "team Img 10",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg11",
+        "name": "team Img 11",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg12",
+        "name": "team Img 12",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg13",
+        "name": "team Img 13",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg14",
+        "name": "team Img 14",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg15",
+        "name": "team Img 15",
+        "type": "image"
+          }, 
+            {
+        "id": "teamImg16",
+        "name": "team Img 16",
+        "type": "image"
+          }, 
 
-
-
-
+         
 
 
         {
-      "id": "section1LeftVideo",
-      "name": "Section 1 Video",
-      "type": "video"
+      "id": "map",
+      "name": "Map Embed",
+      "type": "embed",
+      "data" : {
+        "code" : "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12613.491676967129!2d-122.4637825!3d37.7812994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd319f1ee2f6765bf!2sBrother&#39;s+Restaurant!5e0!3m2!1sen!2sus!4v1435626751539' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>"
         }
+      }
 
 
 	]

@@ -9974,7 +9974,7 @@ p {
   -webkit-transition: all .4s;
           transition: all .4s;
   white-space: normal;
-  border: 2px solid;
+  border: 2px solid #267bcf;
   border-radius: 2px;
   background: #267bcf;
   color: #ffffff;
@@ -9982,8 +9982,8 @@ p {
           transition: background .75s ease; }
   .btnBlue:hover {
     background-color: transparent;
-    border: 2px solid #267bcf;
-    color: #267bcf;
+    border: 2px solid #267bcc;
+    color: #267bcc;
     text-decoration: none; }
 
 .btnBlue2 {
@@ -9997,7 +9997,7 @@ p {
   -webkit-transition: all .4s;
           transition: all .4s;
   white-space: normal;
-  border: 2px solid;
+  border: 2px solid #267bce;
   border-radius: 2px;
   background: #267bce;
   color: #ffffff;
@@ -10005,8 +10005,8 @@ p {
           transition: background .75s ease; }
   .btnBlue2:hover {
     background-color: transparent;
-    border: 2px solid #267bce;
-    color: #267bcf;
+    border: 2px solid #267bcb;
+    color: #267bcb;
     text-decoration: none; }
 
 /* Header
@@ -10121,7 +10121,7 @@ img.bg {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 110px 0 110px 0; }
+  padding: 0px 0 110px 0; }
 
 .bgImgPlacement {
   /*position: relative;
@@ -10172,6 +10172,9 @@ img.bg {
   height: 116px;
   line-height: 116px;
   margin: auto auto 50px auto; }
+
+.advLink {
+  width: 100%; }
 
 .advImg {
   display: inline-block;
@@ -10269,8 +10272,8 @@ img.bg {
 
 .quoteImgWrap img {
   border-radius: 50%;
-  height: 120px;
-  width: 120px; }
+  max-height: 120px;
+  max-width: 120px; }
 
 .quoteAttrWrap {
   margin-top: 10px; }
@@ -10289,6 +10292,9 @@ img.bg {
 /*-------------Services------------*/
 .servicesWrap {
   background-color: #f8f8f7; }
+
+#servicesBlockGrid li p {
+  text-align: center; }
 
 .servicesTitle {
   font-size: 23px;
@@ -10311,6 +10317,10 @@ img.bg {
   float: left;
   padding-bottom: 50%;
   display: block; }
+  .galleryBlock a {
+    color: #ffffff; }
+    .galleryBlock a:hover {
+      text-decoration: none; }
   .galleryBlock .galleryHover {
     position: absolute;
     top: 45%;
@@ -10347,7 +10357,21 @@ img.bg {
 .teamGrid {
   display: block;
   padding: 0;
-  margin: 0 -0.625rem; }
+  margin: 0 -0.625rem;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; }
   .teamGrid:before, .teamGrid:after {
     content: " ";
     display: table; }
@@ -10459,6 +10483,9 @@ img.bg {
 @media only screen and (min-width: 40.063em) {
   .header {
     position: fixed; }
+
+  .hero {
+    padding: 110px 0 110px 0; }
 
   #theNav li a {
     font-size: 22px; }
@@ -10603,7 +10630,9 @@ img.bg {
       .teamGrid > li:nth-of-type(1n) {
         clear: none; }
       .teamGrid > li:nth-of-type(4n+1) {
-        clear: both; } }
+        clear: both; }
+    .teamGrid li {
+      width: 24% !important; } }
 /* min-width 641px, medium screens */
 /* min-width 1441px, xlarge screens */
 

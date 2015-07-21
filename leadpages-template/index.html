@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Blank Project</title>
+		<title>Media Web</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
 		
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-		<script src="js/jquery.js"></script>
+		
 		<script src="js/functions.js"></script>
 		<script src="js/html5shiv.js" type="text/javascript"></script>
-  		<script src="js/bootstrap.js"></script>
-		<script src="js/smoothscroll.js"></script>
+  		
 		
 		
 		
@@ -22,12 +21,12 @@
 
 				<div id="header" class="row rowLg header">
 					<div id="headerInner" class="row headerInner">
-						<div class="logoWrap">
-							<a href="">
-								<img id="logo" class="logo" src="img/logo.jpg"></li>
+						<div id="logoWrap" class="logoWrap">
+							<a  id="logo" href="">
+								<img  class="logo" src="img/logo.png">
 							</a>
 						</div>
-						<div id="navWrap"class="navWrap">
+						<div id="navWrap" class="navWrap">
 
 
 
@@ -47,21 +46,21 @@
 						    <!-- Collect the nav links, forms, and other content for toggling -->
 						    <div class="collapse navbar-collapse" id="theNav">
 						      <ul class="nav navbar-nav">
-						         <li><a href="#hero">HOME</a></li>
+						         <li><a id="navLink1" href="#hero">HOME</a></li>
 						        <li class="">
-							     	<a href="#aboutWrap">ABOUT</a>
+							     	<a id="navLink2" href="#aboutWrap">ABOUT</a>
 							     </li>
 							     <li class="">
-							     	<a href="#servicesWrap">SERVICES</a>
+							     	<a id="navLink3" href="#servicesWrap">SERVICES</a>
 							     	</li>
 							     	<li class="">
-							     	<a href="#caseWrap">CASE STUDIES</a>
+							     	<a id="navLink4" href="#caseWrap">CASE STUDIES</a>
 							     </li>
 							     <li class="">
-							     	<a href="#teamWrap">TEAM</a>
+							     	<a id="navLink5" href="#teamWrap">TEAM</a>
 							     </li>
 							      <li class="">
-							     	<a href="#contactWrap">CONTACT</a>
+							     	<a id="navLink6" href="#contactWrap">CONTACT</a>
 							     </li>
 						      </ul>
 						    </div><!-- /.navbar-collapse -->
@@ -88,7 +87,7 @@
 							</div>
 								
 							<div id="buttonHolder1" class="columns small-11 small-centered medium-6 medium-centered">
-								<a id="button1" class="button radius btnTransparent" href="#API">Let's Work Together</a>
+								<a id="button1" class="button radius btnTransparent" href="#/optin">Let's Work Together</a>
 							</div>
 					</div>		
 				</div>
@@ -105,9 +104,9 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-												<a href="#"><img src="img/radar.png" alt="" id="advImg1" class="advImg"></a>
+												<a class="advLink" id="advImg1" href="#"><img src="img/radar.png" alt=""  class="advImg"></a>
 										</div>
-										<h3>Custom Design</h3>
+										<h3 id="advListTitle1">Custom Design</h3>
 										<ul id="advList1" class="listStyle1">
 											<li>No Tempalates</li>
 											<li>Responsive Design</li>
@@ -118,10 +117,10 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-											<a href="#"><img src="img/handshake.png" alt="" id="advImg2" class="advImg"></a>
+											<a class="advLink" id="advImg2" href="#"><img src="img/handshake.png" alt=""  class="advImg"></a>
 											
 										</div>
-										<h3>Lead Generation</h3>
+										<h3 id="advListTitle2">Lead Generation</h3>
 										<ul id="advList2" class="listStyle1">
 											<li>24/7 global lead getn</li>
 											<li>Gather Names & Emails</li>
@@ -132,10 +131,10 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-											<a href="#"><img src="img/chart.png" alt="" id="advImg3" class="advImg"></a>
+											<a class="advLink" id="advImg3" href="#"><img src="img/chart.png" alt=""  class="advImg"></a>
 
 										</div>
-										<h3>Maximum Roi</h3>
+										<h3 id="advListTitle3">Maximum Roi</h3>
 										<ul id="advList3" class="listStyle1">
 											<li>Boost Revenue</li>
 											<li>Reduce Costs</li>
@@ -151,13 +150,13 @@
 						<div id="about1" class="row">
 							<div class="columns small-10 small-centered medium-12">
 								<div class="titlesWrap">
-									<p class="mainTitle">ABOUT US</p>
-									<p class="subTitle">Our Web Skills Run Deep</p>
+									<p id="aboutTitle" class="mainTitle">ABOUT US</p>
+									<p id="aboutSubTitle" class="subTitle">Our Web Skills Run Deep</p>
 								</div>
-								<p>When we set up shop in 2001, we had one goal: build a top-notch custom web development company. Since then, we’ve been providing creative web-based solutions for our clients. We’ve managed the design and development of more than 300 websites and web applications</p>
+								<p id="aboutText1">When we set up shop in 2001, we had one goal: build a top-notch custom web development company. Since then, we’ve been providing creative web-based solutions for our clients. We’ve managed the design and development of more than 300 websites and web applications</p>
 								<ul id="aboutBlockGrid" class="small-block-grid-1 medium-block-grid-3 aboutBlockGrid">
 									<li class="aboutGrid">
-										<h2>We Know</h2>
+										<h2 id="aboutGridTitle1">We Know</h2>
 										<ul class="listStyle2" id="aboutGrid1">
 											<li>E-commerce</li>
 											<li>Prdouct Catalogs</li>
@@ -171,7 +170,7 @@
 										</ul>
 									</li>
 									<li class="aboutGrid">
-										<h2>We Code in</h2>
+										<h2 id="aboutGridTitle2">We Code in</h2>
 										<ul class="listStyle2" id="aboutGrid2">
 											<li>HTML5</li>
 											<li>CSS3</li>
@@ -184,7 +183,7 @@
 										</ul>
 									</li>
 									<li class="aboutGrid">
-										<h2>We Use</h2>
+										<h2 id="aboutGridTitle3">We Use</h2>
 										<ul class="listStyle2" id="aboutGrid3">
 											<li>jQuery</li>
 											<li>Bootstrap</li>
@@ -236,7 +235,7 @@
 					
 					<div id="quoteWrap" class="row rowLg">
 						<div id="quoteBgPosition" class="quoteBgPosition">
-						<img class="quoteBgImg" src="img/bluebg.png" alt="">
+						<img id="quoteBgImg" class="quoteBgImg" src="img/bluebg.png" alt="">
 						
 							<div id="quote" class="row">
 								<div class="columns small-12 small-centered ">
@@ -247,13 +246,13 @@
 										<div class="columns small-12 small-centered medium-6 medium-centered">
 											<div id="quoteImgWrap" class="quoteImgWrap columns small-12 medium-6">
 												<div>
-													<img src="img/susan.png" alt="">
+													<img id="quoteImg" src="img/susan.png" alt="">
 												</div>
 											</div>
 											<div id="quoteAttrWrap" class="quoteAttrWrap columns small-12 medium-6">
 												<div>
-													<p class="quoteName">Susan Pepple</p>
-													<p class="quoteBiz">Libman Education</p>
+													<p id="quoteName" class="quoteName">Susan Pepple</p>
+													<p id="quoteBiz" class="quoteBiz">Libman Education</p>
 												</div>
 												
 											</div>
@@ -277,42 +276,42 @@
 							</div>	
 							<div class="columns small-11 small-centered ">
 								<ul id="servicesBlockGrid" class="serivcesBlockGrid small-block-grid-1 medium-block-grid-3">
-									<li>
+									<li id="servicesList1">
 										<div class="servicesImgWrap">
 											<img src="img/wplogo.png" alt="" id="serviceImg1">
 										</div>
 										<h1 id="servicesTitle1" class="servicesTitle">WordPress Websites</h1>
 										<p id="servicesText1">3 Media Web brings you the ease and power of WordPress as a content management system (CMS). The result is a website that is flexible and easy to update, yet retains the strength of its custom design. </p>
 									</li>
-									<li>
+									<li id="servicesList2">
 										<div class="servicesImgWrap">
 											<img src="img/comments.png" alt="" id="serviceImg2">
 										</div>	
 										<h1 id="servicesTitle2" class="servicesTitle">Social Media</h1>
-										<p id="servicesText2">Leverage your web presence by integrating your website with your social media channels like Facebook, Twitter and Pinterest. 3 Media Web continually tweaks your social media profile to maximize your marketing opportunities and customer engagement. </p>
+										<p id="servicesText2">Leverage your web presence by integrating your website with your social media channels like Facebook, Twitter and Pinterest. 3 Media Web continually tweaks your social media profile to maximize your marketing opportunities and customer engagement. </p>
 									</li>
-									<li>
+									<li id="servicesList3">
 										<div class="servicesImgWrap">
 											<img src="img/bulb.png" alt="" id="serviceImg3">
 										</div>	
 										<h1 id="servicesTitle3" class="servicesTitle">Creative Design</h1>
 										<p id="servicesText3">Our creative process involves you in shaping your unique design. From sketches to interactive mockups, you get a feel for your website before we write a single line of code. We combine our design strengths with your market knowledge to create a site that leapfrogs your competition. </p>
 									</li>
-									<li>
+									<li id="servicesList4">
 										<div class="servicesImgWrap">
 											<img src="img/seo.png" alt="" id="serviceImg4">
 										</div>
 										<h1 id="servicesTitle4" class="servicesTitle">Search Engine Optimization</h1>
 										<p id="servicesText4">A great looking website will keep visitors, but how do you get them to your site in the first place? 3 Media Web infuses your website with Google-friendly keywords from the get go to help you stake a claim in your niche – and keep it! </p>
 									</li>
-									<li>
+									<li id="servicesList5">
 										<div class="servicesImgWrap">
 											<img src="img/touch.png" alt="" id="serviceImg5">
 										</div>	
 										<h1 id="servicesTitle5" class="servicesTitle">Responsive Web Design</h1>
 										<p id="servicesText5">Your customers expect your website and emails to look perfect, no matter how they’re viewing them: on their desktop, tablet or smartphone. The 3 Media Web team is always learning the newest mobile best practices to create responsive designs that are flexible and beautiful. </p>
 									</li>
-									<li>
+									<li id="servicesList6">
 										<div class="servicesImgWrap">
 											<img src="img/award.png" alt="" id="serviceImg6">
 										</div>	
@@ -332,81 +331,101 @@
 								<div id="caseBlockGrid" class="caseBlockGrid">
 									<div id="caseBlock1" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block1.jpg" alt="" id="caseBlockImg1">
+											<a id="caseBlockImgLink1" href="#">
+												<img class="caseBlockImg" src="img/block1.jpg" alt="" id="caseBlockImg1">
+											</a>
 											<div class="galleryHover" id="galleryHover1">
-												<div id="block1Text">View Project</div>
+												<a href="#" id="block1Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock2" class="caseBlock">
 										<div class="galleryBlock">
-										<img class="caseBlockImg" src="img/block2.jpg" alt="" id="caseBlockImg2">
+										<a id="caseBlockImgLink2" href="#">
+											<img class="caseBlockImg" src="img/block2.jpg" alt="" id="caseBlockImg2">
+										</a>	
 										<div class="galleryHover" id="galleryHover2">
-												<div id="block2Text">View Project</div>
+												<a href="#" id="block2Text">View Project</a>
 											</div>
 										</div>
 									</div>
 									<div id="caseBlock3" class="caseBlock">
 										<div class="galleryBlock" >
-											<img class="caseBlockImg" src="img/block3.jpg" alt="" id="caseBlockImg3">
+											<a id="caseBlockImgLink3" href="#">
+												<img class="caseBlockImg" src="img/block3.jpg" alt="" id="caseBlockImg3">
+											</a>	
 											<div class="galleryHover" id="galleryHover3">
-												<div id="block3Text">View Project</div>
+												<a href="#" id="block3Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock4" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block4.jpg" alt="" id="caseBlockImg4">
+											<a id="caseBlockImgLink4" href="#">
+												<img class="caseBlockImg" src="img/block4.jpg" alt="" id="caseBlockImg4">
+											</a>	
 											<div class="galleryHover" id="galleryHover4">
-												<div id="block4Text">View Project</div>
+												<a href="#" id="block4Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock5" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block5.jpg" alt="" id="caseBlockImg5">
+											<a id="caseBlockImgLink5" href="#">
+												<img class="caseBlockImg" src="img/block5.jpg" alt="" id="caseBlockImg5">
+												</a>
 											<div class="galleryHover" id="galleryHover5">
-												<div id="block5Text">View Project</div>
+												<a href="#" id="block5Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock6" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block6.jpg" alt="" id="caseBlockImg6">
+											<a id="caseBlockImgLink6" href="#">
+												<img class="caseBlockImg" src="img/block6.jpg" alt="" id="caseBlockImg6">
+											</a>	
 											<div class="galleryHover" id="galleryHover6">
-												<div id="block6Text">View Project</div>
+												<a href="#" id="block6Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock7" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block7.jpg" alt="" id="caseBlockImg7">
+											<a id="caseBlockImgLink7" href="#">
+												<img class="caseBlockImg" src="img/block7.jpg" alt="" id="caseBlockImg7">
+											</a>	
 											<div class="galleryHover" id="galleryHover7">
-												<div id="block7Text">View Project</div>
+												<a href="#" id="block7Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock8" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block8.jpg" alt="" id="caseBlockImg8">
+											<a id="caseBlockImgLink8" href="#">
+												<img class="caseBlockImg" src="img/block8.jpg" alt="" id="caseBlockImg8">
+											</a>	
 											<div class="galleryHover" id="galleryHover8">
-												<div id="block8Text">View Project</div>
+												<a href="#" id="block8Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock9" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block9.jpg" alt="" id="caseBlockImg9">
+											<a id="caseBlockImgLink9" href="#">
+												<img class="caseBlockImg" src="img/block9.jpg" alt="" id="caseBlockImg9">
+											</a>	
 											<div class="galleryHover" id="galleryHover9">
-												<div id="block9Text">View Project</div>
+												<a href="#" id="block9Text">View Project</a>
 											</div>
 										</div>	
 									</div>
 									<div id="caseBlock10" class="caseBlock">
 										<div class="galleryBlock">
-											<img class="caseBlockImg" src="img/block10.jpg" alt="" id="caseBlockImg10">
+											<a id="caseBlockImgLink10" href="#">
+												<img class="caseBlockImg" src="img/block10.jpg" alt="" id="caseBlockImg10">
+											</a>	
 											<div class="galleryHover" id="galleryHover10">
-												<div id="block10Text">View Project</div>
+												<a href="#" id="block10Text">View Project</a>
 											</div>
 										</div>	
 									</div>
@@ -417,63 +436,222 @@
 					<div id="teamWrap" class="row rowLg teamWrap">
 						<div id="team" class="row">
 							<div id="teamTitles" class="">
-								<p class="mainTitle">OUR TEAM</p>
-								<p class="subTitle">Our Team is Full of Rockstars</p>
+								<p id="teamMainTitle" class="mainTitle">OUR TEAM</p>
+								<p id="teamSubTitle" class="subTitle">Our Team is Full of Rockstars</p>
 							</div><!--Team Titles-->
 							<div id="teamGridWrap" class="columns small-12 medium-11 medium-centered">
 								<ul id="teamGrid" class="teamGrid">
 									<li id="teamBlock1">
-										<img src="img/robbie.jpg" alt="">
+										<img id="teamImg1" src="img/robbie.jpg" alt="">
 										<div id="teamBlockAttr1" class="teamBlockAttr">
 											<p id="teamName1" class="teamName">Robbie Moore</p>
 											<p id="teamPosition1" class="teamPosition">Creative Director</p>
 										</div>
 										<div id="teamSocial1" class="teamSocial">
-											<a href=""><img src="img/fb.png" alt="" id="socialImgA1"></a>
-											<a href=""><img src="img/twitter.png" alt="" id="socialImgA2"></a>
-											<a href=""><img src="img/gplus.png" alt="" id="socialImgA3"></a>
-											<a href=""><img src="img/linkedin.png" alt="" id="socialImgA4"></a>
+											<a id="socialImgA1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgA2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgA3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgA4" href=""><img src="img/linkedin.png" alt="" ></a>
 										</div>
 									</li>
 									<li id="teamBlock2">
-										<img src="img/lisa.jpg" alt="">
+										<img id="teamImg2" src="img/lisa.jpg" alt="">
 										<div id="teamBlockAttr2" class="teamBlockAttr">
 											<p id="teamName2" class="teamName">Lisa Cesar</p>
 											<p id="teamPosition2" class="teamPosition">Controller</p>
 										</div>
 										<div id="teamSocial2" class="teamSocial">
-											<a href=""><img src="img/fb.png" alt="" id="socialImgB1"></a>
-											<a href=""><img src="img/twitter.png" alt="" id="socialImgB2"></a>
-											<a href=""><img src="img/gplus.png" alt="" id="socialImgB3"></a>
-											<a href=""><img src="img/linkedin.png" alt="" id="socialImgB4"></a>
+											<a id="socialImgB1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgB2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgB3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgB4" href=""><img src="img/linkedin.png" alt="" ></a>
 										</div>
 									</li>
 									<li id="teamBlock3">
-										<img src="img/marc.jpg" alt="">
+										<img id="teamImg3" src="img/marc.jpg" alt="">
 										<div id="teamBlockAttr3" class="teamBlockAttr">
 											<p id="teamName3" class="teamName">Marc Avila</p>
 											<p id="teamPosition3" class="teamPosition">Founder & Team Lead</p>
 										</div>
 										<div id="teamSocial3" class="teamSocial">
-											<a href=""><img src="img/fb.png" alt="" id="socialImgC1"></a>
-											<a href=""><img src="img/twitter.png" alt="" id="socialImgC2"></a>
-											<a href=""><img src="img/gplus.png" alt="" id="socialImgC3"></a>
-											<a href=""><img src="img/linkedin.png" alt="" id="socialImgC4"></a>
+											<a id="socialImgC1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgC2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgC3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgC4" href=""><img src="img/linkedin.png" alt="" ></a>
 										</div>
 									</li>
 									<li id="teamBlock4">
-										<img src="img/jenny.jpg" alt="">
+										<img id="teamImg4" src="img/jenny.jpg" alt="">
 										<div id="teamBlockAttr4" class="teamBlockAttr">
 											<p id="teamName4" class="teamName">Jenny Dubinsky</p>
 											<p id="teamPosition4" class="teamPosition">Web Project Manager</p>
 										</div>
 										<div id="teamSocial4" class="teamSocial">
-											<a href=""><img src="img/fb.png" alt="" id="socialImgD1"></a>
-											<a href=""><img src="img/twitter.png" alt="" id="socialImgD2"></a>
-											<a href=""><img src="img/gplus.png" alt="" id="socialImgD3"></a>
-											<a href=""><img src="img/linkedin.png" alt="" id="socialImgD4"></a>
+											<a id="socialImgD1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgD2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgD3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgD4" href=""><img src="img/linkedin.png" alt="" ></a>
 										</div>
 									</li>
+
+									<li id="teamBlock5">
+										<img id="teamImg5" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr5" class="teamBlockAttr">
+											<p id="teamName5" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition5" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial5" class="teamSocial">
+											<a id="socialImgE1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgE2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgE3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgE4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock6">
+										<img id="teamImg6" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr6" class="teamBlockAttr">
+											<p id="teamName6" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition6" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial6" class="teamSocial">
+											<a id="socialImgF1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgF2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgF3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgF4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+												<li id="teamBlock7">
+										<img id="teamImg7" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr7" class="teamBlockAttr">
+											<p id="teamName7" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition7" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial7" class="teamSocial">
+											<a id="socialImgG1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgG2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgG3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgG4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock8">
+										<img id="teamImg8" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr8" class="teamBlockAttr">
+											<p id="teamName8" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition8" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial8" class="teamSocial">
+											<a id="socialImgH1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgH2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgH3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgH4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock9">
+										<img id="teamImg9" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr9" class="teamBlockAttr">
+											<p id="teamName9" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition9" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial9" class="teamSocial">
+											<a id="socialImgI1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgI2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgI3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgI4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+ 									<li id="teamBlock10">
+										<img id="teamImg10" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr10" class="teamBlockAttr">
+											<p id="teamName10" class="teamName">Jenny Dubinsky</p>
+											<p id="teamPosition10" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial10" class="teamSocial">
+											<a id="socialImgJ1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgJ2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgJ3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgJ4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+ 									<li id="teamBlock11">
+										<img id="teamImg11" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr11" class="teamBlockAttr">
+											<p id="teamName11" class="teamName">Kenny Dubinsky</p>
+											<p id="teamPosition11" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial11" class="teamSocial">
+											<a id="socialImgK1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgK2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgK3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgK4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock12">
+										<img id="teamImg12" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr12" class="teamBlockAttr">
+											<p id="teamName12" class="teamName">Lenny Dubinsky</p>
+											<p id="teamPosition12" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial12" class="teamSocial">
+											<a id="socialImgL1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgL2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgL3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgL4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock13">
+										<img id="teamImg13" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr13" class="teamBlockAttr">
+											<p id="teamName13" class="teamName">Menny Dubinsky</p>
+											<p id="teamPosition13" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial13" class="teamSocial">
+											<a id="socialImgM1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgM2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgM3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgM4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+ 									<li id="teamBlock14">
+										<img id="teamImg14" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr14" class="teamBlockAttr">
+											<p id="teamName14" class="teamName">Nenny Dubinsky</p>
+											<p id="teamPosition14" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial14" class="teamSocial">
+											<a id="socialImgN1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgN2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgN3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgN4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock15">
+										<img id="teamImg15" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr15" class="teamBlockAttr">
+											<p id="teamName15" class="teamName">Oenny Dubinsky</p>
+											<p id="teamPosition15" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial15" class="teamSocial">
+											<a id="socialImgO1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgO2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgO3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgO4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									<li id="teamBlock16">
+										<img id="teamImg16" src="img/jenny.jpg" alt="">
+										<div id="teamBlockAttr16" class="teamBlockAttr">
+											<p id="teamName16" class="teamName">Penny Dubinsky</p>
+											<p id="teamPosition16" class="teamPosition">Web Project Manager</p>
+										</div>
+										<div id="teamSocial16" class="teamSocial">
+											<a id="socialImgP1" href=""><img src="img/fb.png" alt="" ></a>
+											<a id="socialImgP2" href=""><img src="img/twitter.png" alt="" ></a>
+											<a id="socialImgP3" href=""><img src="img/gplus.png" alt="" ></a>
+											<a id="socialImgP4" href=""><img src="img/linkedin.png" alt="" ></a>
+										</div>
+									</li>
+									
+
 								</ul>
 							</div><!-- Team Grid-->
 						</div><!--Team-->
@@ -484,7 +662,7 @@
 
 					<div id="leadmagnetWrap" class="row rowLg">
 						<div id="leadmagnetBgPosition" class="leadmagnetBgPosition">
-						<img class="leadmagnetBgImg" src="img/bluebg2.png" alt="">
+						<img id="leadMagnetBgImg" class="leadmagnetBgImg" src="img/bluebg2.png" alt="">
 						
 							<div id="leadmagnet" class="row">
 
@@ -493,16 +671,16 @@
 										<p id="leadmagnetText" class="leadMagnetTitle">
 											FREE GUIDE
 										</p>
-										<p id="leadMagnetSubtitle"class="leadMagnetSubtitle">
+										<p id="leadMagnetSubtitle" class="leadMagnetSubtitle">
 											Start your web redesign project with our informative guide. 
 										</p>
-										<div id="leadMagnetBtnWrap" class="leadMagnetBtnWrap"><a href="" id="leadMagnetBtn" class="button btnTransparent">Download your Website Redesign Guide</a></div>
+										<div id="leadMagnetBtnWrap" class="leadMagnetBtnWrap"><a href="" id="leadMagnetBtn" class="button btnTransparent2">Download your Website Redesign Guide</a></div>
 									</div><!---Columns-->
 									<div class="columns small-12 medium-6">
 											<div id="leadmagnetImgWrap" class="leadmagnetImgWrap">
-												<div>
-													<img src="img/guide.png" alt="">
-												</div>
+												<a href="#" id="leadMagnetImgLink">
+													<img id="" src="img/guide.png" alt="">
+												</a>
 											</div>
 											
 
@@ -517,19 +695,22 @@
 					<div id="contactWrap" class="row rowLg">
 						<div id="contact" class="row contact">
 							<div id="contactInner" class="contactInner">
-								<div id="map" class="columns medium-8 show-for-medium-up">
-									<img class="mapImg" src="img/map.jpg" alt="">
+								<div id="mapWrap" class="columns medium-8 show-for-medium-up">
+									<div id="map">
+										<img class="mapImg" src="img/map.jpg" alt="">
+									</div>	
+										
 								</div>
 								<div id="contactForm" class="columns medium-4">
 									<p id="contactTitle" class="contactTitle">CONTACT US</p>
-									<div id="conactText" class="contactText">
+									<div id="contactText" class="contactText">
 										<p >Do you have an interesting design challenge for us? Would you like to tjoin our tema? Email us at awesome@3mediaweb.com or call 860-249-7000</p>
 										<p>Mailing Address:<br>
 										100 Pearl street, 14th floor<br>
 										Hartford, Connecticut, 06103</p>
 									</div>
 									<div class="cb"></div>
-									<div id="contactBtnWrap" class="conactBtnWrap"><a href="" id="conactBtn" class=" button contactBtn btnBlue2">Click to Contact Us</a></div>
+									<div id="contactBtnWrap" class="conactBtnWrap"><a href="" id="contactBtn" class=" button contactBtn btnBlue2">Click to Contact Us</a></div>
 								</div>
 							</div><!--Conact Inner-->	
 						</div><!-- Conact-->
@@ -537,13 +718,13 @@
 					<div id="footerWrap" class="row rowLg footerWrap">
 						<div id="footer" class="row">
 							<div id="footerSocial" class="footerSocial">
-								<a href=""><img src="img/fb2.png" alt="" id="footerSocialImg1"></a>
-								<a href=""><img src="img/twitter2.png" alt="" id="footerSocialImg2"></a>
-								<a href=""><img src="img/gplus2.png" alt="" id="footerSocialImg3"></a>
-								<a href=""><img src="img/linkedin2.png" alt="" id="footerSocialImg4"></a>
-								<a href=""><img src="img/pintrest2.png" alt="" id="footerSocialImg5"></a>
-								<a href=""><img src="img/play2.png" alt="" id="footerSocialImg6"></a>
-								<a href=""><img src="img/other2.png" alt="" id="footerSocialImg7"></a>
+								<a id="footerSocialImg1" href="#"><img src="img/fb2.png" alt="" ></a>
+								<a  id="footerSocialImg2" href="#"><img src="img/twitter2.png" alt="" ></a>
+								<a id="footerSocialImg3" href="#"><img src="img/gplus2.png" alt="" ></a>
+								<a id="footerSocialImg4" href="#"><img src="img/linkedin2.png" alt="" ></a>
+								<a id="footerSocialImg5" href="#"><img src="img/pintrest2.png" alt="" ></a>
+								<a id="footerSocialImg6" href="#"><img src="img/play2.png" alt="" ></a>
+								<a id="footerSocialImg7" href="#"><img src="img/other2.png" alt="" ></a>
 							</div>
 						</div>
 					</div>
