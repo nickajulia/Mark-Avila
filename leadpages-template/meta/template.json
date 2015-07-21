@@ -2,9 +2,9 @@
 	"id": "Media Web Template",
 	"name": "Media Web Template", 
 	"mobile": true, 
-	"notes": "version 1.1049", 
+	"notes": "version 1.105", 
 	"syntax": 4, 
-	"version": 1.1049,
+	"version": 1.105,
 	"style": {
 		"html": "",
 		"replacements": [
