@@ -7,11 +7,14 @@
 		
 		
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+		
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 		
 		<script src="js/functions.js"></script>
 		<script src="js/html5shiv.js" type="text/javascript"></script>
-  		
 		
 		
 		
@@ -87,7 +90,7 @@
 							</div>
 								
 							<div id="buttonHolder1" class="columns small-11 small-centered medium-6 medium-centered">
-								<a id="button1" class="button radius btnTransparent" href="#/optin">Let's Work Together</a>
+								<a id="button1" class="button radius btnReverse" href="#/optin">Let's Work Together</a>
 							</div>
 					</div>		
 				</div>
@@ -104,7 +107,7 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-												<a class="advLink" id="advImg1" href="#"><img src="img/radar.png" alt=""  class="advImg"></a>
+												<div class="advLink" ><img id="advImg1" src="img/radar.png" alt=""  class="advImg"></div>
 										</div>
 										<h3 id="advListTitle1">Custom Design</h3>
 										<ul id="advList1" class="listStyle1">
@@ -117,7 +120,7 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-											<a class="advLink" id="advImg2" href="#"><img src="img/handshake.png" alt=""  class="advImg"></a>
+											<div class="advLink" ><img id="advImg2" src="img/handshake.png" alt=""  class="advImg"></div>
 											
 										</div>
 										<h3 id="advListTitle2">Lead Generation</h3>
@@ -131,7 +134,7 @@
 								<li>
 									<div>
 										<div class="advImgWrap">
-											<a class="advLink" id="advImg3" href="#"><img src="img/chart.png" alt=""  class="advImg"></a>
+											<div class="advLink"  ><img id="advImg3" src="img/chart.png" alt=""  class="advImg"></div>
 
 										</div>
 										<h3 id="advListTitle3">Maximum Roi</h3>
@@ -211,20 +214,23 @@
 							<div class="columns medium-12 clientsInner">
 								<h1 class="line" id="clientsTitle">A Few of our Successful Clients</h1>
 								<div id="clientLogos" class="clientLogos">
-									<a href="#" class="clientLogo" id="logo1">
-										<img src="img/extreme.png" alt="">
-									</a>
-									<a href="#" class="clientLogo" id="logo2">
-										<img src="img/pilot.png" alt="">
-									</a>
-									<a href="#" class="clientLogo" id="logo3">
-										<img src="img/saint.png" alt="">
-									</a>
-									<a href="#" class="clientLogo" id="logo4">	<img src="img/bake.png" alt="">
-									</a>
-									<a href="#" class="clientLogo" id="logo5">
-										<img src="img/salmon.png" alt="">
-									</a>
+									
+									<div class="clientLogo" >
+										<img id="logo1" src="img/extreme.png" alt="">
+									</div>
+									
+									<div class="clientLogo" >
+										<img id="logo2" src="img/pilot.png" alt="">
+									</div>
+									<div class="clientLogo" >
+										<img id="logo3" src="img/saint.png" alt="">
+									</div>
+									<div class="clientLogo" >
+										<img id="logo4" src="img/bake.png" alt="">
+									</div>
+									<div class="clientLogo" >
+										<img id="logo5" src="img/salmon.png" alt="">
+									</div>
 									
 								
 								</div>

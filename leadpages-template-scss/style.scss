@@ -65,6 +65,7 @@ $heroFont:'open sans', sans-serif;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
+   max-width: none;
   .row{
     max-width: $row-width;
     margin: auto;
@@ -132,6 +133,28 @@ text-align: left;
 
 
 /*---- Buttons --- */
+.btnReverse {
+  font-family: 'Oswald',sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1;
+  padding: 12px 40px;
+  transition: all .4s;
+  transition: all .4s;
+  white-space: normal;
+  border: 2px solid $btnTransparentHoverBg;
+  border-radius: 2px;
+  background: $btnTransparentHoverBg;
+  transition: background .75s ease;
+  color: #2265ab;
+  &:hover{
+  background-color: transparent;
+  
+  text-decoration: none;
+  }
+}
+
+
 .btnTransparent {
   font-family: 'Oswald',sans-serif;
   font-size: 23px;
@@ -414,8 +437,8 @@ img.bg {
   position: absolute;
   left: 0;
   top:0;
-  z-index: -2;
   height: 100%;
+  z-index: -2;
   background-color: $bgImgBg;
 }
 
@@ -452,6 +475,7 @@ width: 100%;
 }
 .advantagesGrid{
 	margin-top: -50px;
+	position: relative;
 }
 .advImgWrap{
   background-color: $advImgWrapBg;
@@ -844,6 +868,15 @@ max-width: 190px;
 }
 
 /*Style.scss*/
+
+
+/* IE gobal styles */
+
+.medium-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: none;
+}
+
+
 
 @import 'mediumscreen';
 @import 'largescreen';

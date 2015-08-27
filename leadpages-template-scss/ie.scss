@@ -1,0 +1,5 @@
+// ie.scss
+
+.medium-block-grid-3> li:nth-of-type(3n+1){
+	clear:none;
+}

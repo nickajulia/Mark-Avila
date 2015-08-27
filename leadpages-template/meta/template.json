@@ -2,9 +2,9 @@
 	"id": "3 Media Web Template",
 	"name": "Media Web Template", 
 	"mobile": true, 
-	"notes": "version 1.105", 
+	"notes": "version 1.108", 
 	"syntax": 4, 
-	"version": 1.105,
+	"version": 1.108,
 	"style": {
 		"html": "",
 		"replacements": [
@@ -988,42 +988,42 @@
          {
       "id": "advImg1",
       "name": "Advantages Image 1 Link",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "advImg2",
       "name": "Advantages Image 2 Link",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "advImg3",
       "name": "Advantages Image 3 Link",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "logo1",
       "name": "Client Logo 1",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "logo2",
       "name": "Client Logo 2",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "logo3",
       "name": "Client Logo 3",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "logo4",
       "name": "Client Logo 4",
-      "type": "image-link"
+      "type": "image"
         },
          {
       "id": "logo5",
       "name": "Client Logo 5",
-      "type": "image-link"
+      "type": "image"
         },
 
          {

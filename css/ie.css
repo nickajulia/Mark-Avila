@@ -1,0 +1,4 @@
+.medium-block-grid-3 > li:nth-of-type(3n+1) {
+  clear: none; }
+
+/*# sourceMappingURL=ie.css.map */

@@ -1,0 +1,5 @@
+
+
+#theNav li a:before {
+    content: "|";
+    margin-right: 0px; } 
